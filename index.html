@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenGarden</title>
+    <!--tailwind-CSS CDN Link-->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+
+    <!--Responsive NavBar-->
+    <nav class="bg-yellow-400 p-3 flex items-center justify-between shadow-2xl sticky top-0 z-10">
+        <h1 class="text--8 font-bold text-green-700">GreenGarden</h1>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6 md:hidden">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <ul class="flex gap-6 text-gray-700 hidden md:flex">
+            <li>
+                <a class="hover:text-green-700" href="index.html"> Home</a>
+            </li>
+
+            <li>
+                <a class="hover:text-green-700" href="product.html">Products</a>
+            </li>
+
+            <li>
+                <a class="hover:text-green-700" href="contact.html">Contact</a>
+            </li>
+        </ul> 
+    </nav>
+
+    <!--header section-->
+    <section class="bg-green-800 p-4 md:p-10 flex justify-center">
+        <div>
+             <p class="font-sans mb-4">We Offer you a Wide range of Artificial and Natural Flowers</p>
+             <h2 class="font-bold text-3xl md:text-5xl mb-5">Plants for your Interior</h2>
+        <div>
+            <button class= "border bg-black rounded p-2 text-white">Shop Now</button>
+            <button class="border bg-black rounded p-2 text-white">Watch Video</button>
+        </div>
+
+        <p class="mt-5">160+ Plant Species | 100+Clients</p>
+        </div>
+
+        <div class = "hidden md:block p-5">
+            <img src = "./Header-image.avif" alt ="Header Image" class="w-80">
+        </div>
+    </section>
+
+    <!--About Section-->
+    <section class="text-center">
+        <h1 class="text-3xl font-bold mt-5">About Us</h1>
+        <p>Bringing Nature Indoors with Stylish Easy-Care Plants for Modern Living.</p>
+    <div class="md:flex">
+        <div class="border border-black p-2 m-6">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-20 inline">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L10.582 16.07a4.5 4.5 0 0 1-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 0 1 1.13-1.897l8.932-8.931Zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0 1 15.75 21H5.25A2.25 2.25 0 0 1 3 18.75V8.25A2.25 2.25 0 0 1 5.25 6H10" />
+            </svg>
+
+            <h2 class="text-xl font-medium">Large Assortment</h2>
+            <p>
+                We offer a large assortment of interior plants to suit every space and style. From compact desk plants to tall statement greens, our collection is curated to bring life into any room. Whether you prefer classic favorites or trending tropicals, we have something for everyone. Each plant is chosen for its beauty, resilience, and ability to thrive indoors. Explore a variety that blends nature with design effortlessly.
+            </p>
+        </div>    
+
+        <div class="border border-black p-2 m-6">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-20 inline">
+               <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 0 0-3.7-3.7 48.678 48.678 0 0 0-7.324 0 4.006 4.006 0 0 0-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 0 0 3.7 3.7 48.656 48.656 0 0 0 7.324 0 4.006 4.006 0 0 0 3.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3-3 3" />
+            </svg>
+
+            <h2 class="text-xl font-medium">Free And Fast Shipping</h2>
+            <p>
+               We offer free and fast shipping on all orders to make your plant shopping easy and stress-free. Every plant is carefully packaged to arrive fresh and damage-free at your doorstep. Our delivery process is streamlined for speed without compromising on quality. No hidden charges or delays — just smooth, reliable service. Get your favorite plants quickly, safely, and at no extra cost.
+            </p>
+
+        </div>
+        <div class="border border-black p-2 m-6">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-20 inline">
+               <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 9.75v-4.5m0 4.5h4.5m-4.5 0 6-6m-3 18c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 0 1 4.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 0 0-.38 1.21 12.035 12.035 0 0 0 7.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 0 1 1.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 0 1-2.25 2.25h-2.25Z" />
+            </svg>
+
+            <h2 class="text-xl font-medium">24/7 Support</h2>
+            <p>
+                Our dedicated support team is available 24/7 to assist you with any questions or concerns. Whether you need plant care tips or help with your order, we're just a message away. We believe great service goes hand-in-hand with great plants. Quick responses and friendly support ensure your experience is always smooth. Count on us anytime — day or night — to help you grow with confidence.
+            </p>
+
+        </div>
+    </div>
+    </section>
+    <!--Best Seller Section-->
+    <section class="p-4 text-center">
+        <h1 class="font-bold mt-5 text-3xl">Best Seller</h1>
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-5">
+            <div>
+                <img src="./Bestseller_1.jpg" class="inline hover:shadow-xl transform hover:translate-y-2" alt="">
+                <h1>Monstera Deliciosa</h1>
+                <p>$20</p>
+            </div>
+
+            <div>
+                <img src="./Bestseller_2.jpg" class="inline hover:shadow-xl transform hover:translate-y-2" alt="">
+                <h1>Snake Plant</h1>
+                <p>$50</p>
+            </div>
+
+            <div>
+                <img src="./Bestseller_3.png" class="inline hover:shadow-xl transform hover:translate-y-2" alt="">
+                <h1>Pothos</h1>
+                <p>$100</p>
+            </div>
+
+            <div>
+                <img src="./Bestseller_4.png" class="inline hover:shadow-xl transform hover:translate-y-2" alt="">
+                <h1>Chinese Evergreen</h1>
+                <p>$30</p>
+            </div>
+        </div>
+    </section>    
+
+    <!--Customer reviews section-->
+    <section>
+        <h1 class="text-3xl font-bold mt-5 text-center">Customer Reviews</h1>
+        <div class="flex flex-col gap-5 justify-center text-white m-5">
+            <div class="bg-green-900 p-5 container"> 
+                <p class="text-justify">The plants arrived in perfect condition and looked even better than expected. They instantly brought life to my space, and the shipping was fast and hassle-free. I’m extremely happy with my purchase and would recommend this store to anyone looking to green up their home. The plant was vibrant, healthy, and exactly as described on the website. It’s rare to find such quality and service combined — I’ll definitely be coming back for more.</p>
+                <p class="font-bold text-yellow-300">Priya Shanmugam</p>
+            </div>
+
+            <div class="bg-green-900 p-5 container">
+                <p class="text-justify">I ordered a ZZ plant and it’s thriving beautifully. The packaging was secure and eco-friendly, and customer support was quick and helpful. It was a great experience from start to finish, and I’ve already recommended it to friends. The plant care instructions were clear and made it easy for a first-time plant parent like me. I’m really happy with how it brightened up my living space.</p>
+                <p class="font-bold text-yellow-300">Surya Mahendran</p>
+            </div>
+
+            <div class="bg-green-900 p-5 container">
+                <p class="text-justify">Love the variety and quality of the plants here. The snake plant fits perfectly in my office and arrived fresh and healthy. Everything was seamless, from browsing to delivery, and I’ll definitely be ordering again soon. The pot design was simple yet elegant, matching my décor perfectly. I appreciate the fast shipping and care taken with packaging — not a single leaf was out of place.</p>
+                <p class="font-bold text-yellow-300">Anjali Shakthivel</p>
+            </div>
+        </div>
+    </section>
+
+    <!--News Section-->
+    <section class="text-center">
+        <h1 class="text-3xl font-bold mt-5 text-center">Join Our News Letter</h1>
+        <p>SIgnup for Email newspaper to get exclusive discounts, updates and more</p>
+        <input type="text" class="border border-black p-2 m-3" style="width: 80%;">
+        <br>
+        <button class = "bg-black text-white p-3 m-1 underline"> Subscribe </button>
+    </section>
+
+    <!--Footer section-->
+    <section class="bg-green-800 p-10 flex flex-col gap-5">
+    <h1 class="text-3xl font-bold">GreenGarden</h1>
+    <p>Bringing greenery, style, and wellness into every corner of your home.</p>
+    <p>@ 2021 GreenGarden.com</p>
+    </section>
+
+</body>
+
+</html>
